@@ -1,0 +1,20 @@
+{
+  "name": "grilar/{-name}",
+  "description": "{Name} package",
+  "type": "package",
+  "autoload": {
+    "psr-4": {
+      "Grilar\\{Name}\\": "src"
+    }
+  },
+  "require": {
+
+  },
+  "extra":{
+    "laravel":{
+      "providers":[
+        "Grilar\\{Name}\\Providers\\{Name}ServiceProvider"
+      ]
+    }
+  }
+}

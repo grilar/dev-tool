@@ -1,0 +1,21 @@
+{
+    "name": "grilar/dev-tool",
+    "description": "Dev tools package",
+    "type": "package",
+    "license": "MIT",
+	"autoload": {
+        "psr-4": {
+            "Grilar\\DevTool\\": "src"
+        }
+    },
+    "require": {
+        "grilar/platform": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Grilar\\DevTool\\Providers\\DevToolServiceProvider"
+            ]
+        }
+    }
+}
